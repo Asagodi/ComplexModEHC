@@ -21,7 +21,7 @@ from visualization import (
     row_height,
 )
 from utils import row_norm, eigen_decomp, is_symmetric, symnorm_graph_laplacian, is_normal, is_unitary
-from timer import timeit_debug, timeit_info
+from timerd import timeit_debug, timeit_info
 
 
 class Generator(object):
